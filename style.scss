@@ -1,0 +1,77 @@
+$primary:hsl(235, 46%, 20%);
+$warning:hsl(15, 100%, 70%);
+$info:hsl(246, 80%, 60%);
+$success: hsl(195, 74%, 62%);
+$danger: hsl(348, 100%, 68%);
+$Violet: hsl(264, 64%, 52%);
+$orange: hsl(43, 84%, 65%);
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400;500;700&family=Rubik:wght@300;400;500&display=swap');
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+:root{
+  --Blue: hsl(246, 80%, 60%);
+  --Light-red: hsl(15, 100%, 70%);
+  --Soft-blue: hsl(195, 74%, 62%);
+  --Light-red-study: hsl(348, 100%, 68%);
+  --Lime-green: hsl(145, 58%, 55%);
+  --Violet: hsl(264, 64%, 52%);
+  --Soft-orange: hsl(43, 84%, 65%);
+  --Very-dark-blue: hsl(226, 43%, 10%);
+  --Dark-blue: hsl(235, 46%, 20%);
+  --Desaturated-blue: hsl(235, 45%, 61%);
+  --Pale-Blue: hsl(236, 100%, 87%);
+  --font-size:18px;
+}
+
+body{
+  display: flex;
+  background-color: var(--Very-dark-blue);
+  justify-content: center;
+  align-items: center;
+  
+  font-family: 'Rubik', sans-serif;
+}
+.img-controller{
+  background-color:white ;
+  margin-top: 20px;
+  width: 100px;
+  border-radius: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-control{
+  background-image: url("images/image-jeremy.png");
+  width: 90px;
+  height: 90px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+
+.layer-card li{
+  list-style: none;
+  color: white;
+  margin: 10px;
+  //padding-bottom: 10px;
+
+}
+.control-img{
+  width: 60px;
+  position: relative;
+  bottom: 10px;
+  right: 15px;
+}
+.text-card{
+  position: relative;
+  bottom: 30px;
+  padding: 20px;
+  color: white;
+}
+
+@include media-breakpoint-down(lg) {
+ 
+}
